@@ -35,8 +35,6 @@
 #ifndef OPENCV_FLANN_LSH_TABLE_H_
 #define OPENCV_FLANN_LSH_TABLE_H_
 
-//! @cond IGNORED
-
 #include <algorithm>
 #include <iostream>
 #include <iomanip>
@@ -161,7 +159,7 @@ public:
     LshTable(unsigned int feature_size, unsigned int key_size)
     {
         feature_size_ = feature_size;
-        CV_UNUSED(key_size);
+        (void)key_size;
         std::cerr << "LSH is not implemented for that type" << std::endl;
         assert(0);
     }
@@ -511,7 +509,5 @@ inline LshStats LshTable<unsigned char>::getStats() const
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-//! @endcond
 
 #endif /* OPENCV_FLANN_LSH_TABLE_H_ */

@@ -31,8 +31,6 @@
 #ifndef OPENCV_FLANN_SIMPLEX_DOWNHILL_H_
 #define OPENCV_FLANN_SIMPLEX_DOWNHILL_H_
 
-//! @cond IGNORED
-
 namespace cvflann
 {
 
@@ -131,7 +129,7 @@ float optimizeSimplexDownhill(T* points, int n, F func, float* vals = NULL )
         }
 
         if (val_r<vals[0]) {
-            // value is smaller than smallest in simplex
+            // value is smaller than smalest in simplex
 
             // expand some more to see if it drops further
             for (int i=0; i<n; ++i) {
@@ -184,7 +182,5 @@ float optimizeSimplexDownhill(T* points, int n, F func, float* vals = NULL )
 }
 
 }
-
-//! @endcond
 
 #endif //OPENCV_FLANN_SIMPLEX_DOWNHILL_H_

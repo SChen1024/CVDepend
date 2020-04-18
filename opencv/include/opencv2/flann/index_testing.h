@@ -31,8 +31,6 @@
 #ifndef OPENCV_FLANN_INDEX_TESTING_H_
 #define OPENCV_FLANN_INDEX_TESTING_H_
 
-//! @cond IGNORED
-
 #include <cstring>
 #include <cassert>
 #include <cmath>
@@ -316,7 +314,5 @@ void test_index_precisions(NNIndex<Distance>& index, const Matrix<typename Dista
 }
 
 }
-
-//! @endcond
 
 #endif //OPENCV_FLANN_INDEX_TESTING_H_

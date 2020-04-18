@@ -30,8 +30,6 @@
 #ifndef OPENCV_FLANN_ALL_INDICES_H_
 #define OPENCV_FLANN_ALL_INDICES_H_
 
-//! @cond IGNORED
-
 #include "general.h"
 
 #include "nn_index.h"
@@ -153,7 +151,5 @@ NNIndex<Distance>* create_index_by_type(const Matrix<typename Distance::ElementT
 }
 
 }
-
-//! @endcond
 
 #endif /* OPENCV_FLANN_ALL_INDICES_H_ */

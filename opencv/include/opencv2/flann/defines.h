@@ -30,8 +30,6 @@
 #ifndef OPENCV_FLANN_DEFINES_H_
 #define OPENCV_FLANN_DEFINES_H_
 
-//! @cond IGNORED
-
 #include "config.h"
 
 #ifdef FLANN_EXPORT
@@ -162,7 +160,5 @@ enum
 };
 
 }
-
-//! @endcond
 
 #endif /* OPENCV_FLANN_DEFINES_H_ */

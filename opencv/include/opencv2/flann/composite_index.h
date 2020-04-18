@@ -31,8 +31,6 @@
 #ifndef OPENCV_FLANN_COMPOSITE_INDEX_H_
 #define OPENCV_FLANN_COMPOSITE_INDEX_H_
 
-//! @cond IGNORED
-
 #include "general.h"
 #include "nn_index.h"
 #include "kdtree_index.h"
@@ -192,7 +190,5 @@ private:
 };
 
 }
-
-//! @endcond
 
 #endif //OPENCV_FLANN_COMPOSITE_INDEX_H_

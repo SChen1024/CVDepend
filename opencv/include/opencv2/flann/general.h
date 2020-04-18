@@ -31,8 +31,6 @@
 #ifndef OPENCV_FLANN_GENERAL_H_
 #define OPENCV_FLANN_GENERAL_H_
 
-//! @cond IGNORED
-
 #include "opencv2/core.hpp"
 
 namespace cvflann
@@ -48,6 +46,5 @@ public:
 
 }
 
-//! @endcond
 
 #endif  /* OPENCV_FLANN_GENERAL_H_ */
